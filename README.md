@@ -18,7 +18,7 @@ The GPIO DATA Register for PORTF (at position 1,2,3) - memory mapped to 0x400250
 
 A value of 1 will enable the LED, 0 will disable it, this can be set using the Tivaware API or directly. 
 
-Three main bitwise functions are used:
+Three main bitwise operations are used:
 
 **SET** value |= (1U << N)
 
